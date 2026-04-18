@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gifs",
+    "name": "GIFs & Boomerangs",
+    "description": "2-3 second animated videos of your photo session, perfect for social media sharing.",
+    "price": 75,
+    "image": "/images/addons/gifs.jpg"
+  },
+  {
+    "id": "guestbook",
+    "name": "Guest Book / Scrapbook",
+    "description": "12x12 photo album with 20 top-loaded pages, photo inserts, adhesive, pens and markers.",
+    "price": 100,
+    "image": "/images/addons/guestbook.jpg"
+  },
+  {
+    "id": "neon-sign",
+    "name": "Neon Sign",
+    "description": "Choose from 'Better Together' (pink) or 'Always & Forever' (white). Custom signage also available.",
+    "price": 150,
+    "image": "/images/addons/neon.jpg"
+  },
+  {
+    "id": "green-screen",
+    "name": "Green Screen",
+    "description": "Unlimited digital background options with logo, branding, and custom wording capability.",
+    "price": 200,
+    "image": "/images/addons/greenscreen.jpg"
+  },
+  {
+    "id": "custom-template",
+    "name": "Custom Template Design",
+    "description": "Our graphic designer creates a fully custom photo strip template matching your event theme.",
+    "price": 75,
+    "image": "/images/addons/template.jpg"
+  },
+  {
+    "id": "themed-props",
+    "name": "Themed Props Bundle",
+    "description": "Special props for your event theme: Wedding, Sweet 16, Quinceanera, Baby Shower, Casino, and more.",
+    "price": 50,
+    "image": "/images/addons/props.jpg"
+  },
+  {
+    "id": "flower-wall",
+    "name": "Flower Wall Backdrop",
+    "description": "Stunning flower wall rental. Choose from BoHo, Glam Garden, Pink & White, Jungle, or Hedge styles.",
+    "price": 300,
+    "image": "/images/addons/flowerwall.jpg"
+  },
+  {
+    "id": "keychains",
+    "name": "Photo Booth Keychains",
+    "description": "Sturdy keychains with printed photos in clear frames. Assembled on-site within minutes.",
+    "price": 150,
+    "image": "/images/addons/keychains.jpg"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "homepage": {
+    "heroHeadline": "Affordable Photo Booth Rental Los Angeles",
+    "heroSubheadline": "Make your event unforgettable with Southern California's most trusted photo booth rental company. Veteran-owned, family-operated, and loved by 7,500+ clients.",
+    "heroCtaText": "Book Now!",
+    "statsSection": {
+      "clients": 7500,
+      "googleReviews": 500,
+      "yelpReviews": 600,
+      "yearsInBusiness": 9
+    },
+    "boothSectionTitle": "Our Photo Booths",
+    "testimonialSectionTitle": "What Our Clients Say",
+    "ctaHeadline": "Ready to Make Your Event Unforgettable?",
+    "ctaSubheadline": "Book your photo booth today and give your guests an experience they'll never forget."
+  },
+  "about": {
+    "headline": "Our Story",
+    "founderStory": "Stay Golden Photo Booth was founded in 2017 by Thomas and Roxanne Praxedes. As a Marine Corps veteran and his wife were planning their own wedding, they saw an opportunity to put photo booth earnings towards their wedding fund. What started as a weekend side hustle quickly became a passion. The couple fell in love with bringing joy to events and watching guests light up behind the camera. That passion grew into a full-time professional business serving all of Southern California.",
+    "mission": "Our mission is to bring fun, laughter, and lasting memories to every event we serve. We believe every celebration deserves a touch of golden magic.",
+    "values": [
+      "Quality over everything",
+      "Treat every event like our own",
+      "Veteran values: integrity, dedication, service",
+      "Family-first approach to business",
+      "Constantly innovating with new booth technology"
+    ]
+  },
+  "contact": {
+    "headline": "Get In Touch",
+    "subheadline": "Ready to book or have questions? We'd love to hear from you!",
+    "phone": "(626) 513-9805",
+    "email": "contact@staygoldenphotobooth.com",
+    "address": "San Dimas / Pasadena, California",
+    "hours": "Monday - Sunday: 9:00 AM - 9:00 PM"
+  }
+}

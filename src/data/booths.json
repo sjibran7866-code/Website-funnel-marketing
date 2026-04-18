@@ -1,0 +1,214 @@
+[
+  {
+    "id": "classic",
+    "name": "Classic Photo Booth",
+    "slug": "classic-photobooth",
+    "tagline": "Timeless fun for any event",
+    "description": "Sophisticated style with cutting-edge technology. Our compact Classic Photo Booth fits any venue, from grand ballrooms to intimate backyard gatherings.",
+    "image": "/images/booths/classic.jpg",
+    "features": [
+      "High-quality studio images",
+      "Professional studio lighting",
+      "Fun props included (25-30 pieces)",
+      "Unlimited prints",
+      "Physical photo strips + digital copies",
+      "Text & email sharing"
+    ],
+    "includes": [
+      "Professional on-site attendant",
+      "Setup and teardown",
+      "Zip file of all photos",
+      "Post-event online gallery"
+    ],
+    "pricing": [
+      { "duration": "2 hours", "price": 500 },
+      { "duration": "3 hours", "price": 750 },
+      { "duration": "4 hours", "price": 1000 }
+    ],
+    "extraHourPrice": 150,
+    "spaceRequired": "8x8 ft area, 8ft height clearance",
+    "startingPrice": 500
+  },
+  {
+    "id": "glam",
+    "name": "Glam Photo Booth",
+    "slug": "glam-photo-booth",
+    "tagline": "Celebrity-style glamour shots",
+    "description": "Our Glam Cam delivers a classy, glamorous movie-set feel with stunning black and white photos. Custom beauty filters make every guest look like a celebrity.",
+    "image": "/images/booths/glam.jpg",
+    "features": [
+      "Custom smoothing/beauty filter",
+      "Premium backdrops included",
+      "Professional studio lighting",
+      "B&W and color options",
+      "GIF creation",
+      "Custom logo & wording"
+    ],
+    "includes": [
+      "Professional on-site attendant",
+      "Unlimited prints (4x6 or 2x6)",
+      "Text & email sharing",
+      "Online gallery with zip file",
+      "Optional prop bundle"
+    ],
+    "pricing": [
+      { "duration": "2 hours", "price": 575 },
+      { "duration": "3 hours", "price": 770 },
+      { "duration": "4 hours", "price": 825 }
+    ],
+    "extraHourPrice": 200,
+    "spaceRequired": "1x1 ft footprint, 5ft tall",
+    "startingPrice": 575
+  },
+  {
+    "id": "360-video",
+    "name": "360 Video Photo Booth",
+    "slug": "360-photo-booth",
+    "tagline": "Capture every angle in slow motion",
+    "description": "A camera on a rotating arm spins around guests on a sturdy platform, creating stunning slow-motion video clips that capture every angle from head to toe.",
+    "image": "/images/booths/360.jpg",
+    "features": [
+      "Slow motion video capture",
+      "Red carpet & stanchions",
+      "Custom soundtrack",
+      "Videos up to 30 seconds",
+      "Instant QR code sharing",
+      "Custom logo branding"
+    ],
+    "includes": [
+      "Professional on-site attendant",
+      "Unlimited videos",
+      "LED video lighting",
+      "Fun prop bundle",
+      "Instant sharing (QR, Airdrop, email, SMS)"
+    ],
+    "pricing": [
+      { "duration": "2 hours", "price": 775 },
+      { "duration": "3 hours", "price": 1000 },
+      { "duration": "4 hours", "price": 1200 }
+    ],
+    "extraHourPrice": 250,
+    "spaceRequired": "10x10 ft minimum",
+    "startingPrice": 775
+  },
+  {
+    "id": "mirror",
+    "name": "Luxe Mirror Photo Booth",
+    "slug": "mirror-photo-booth",
+    "tagline": "Interactive full-length mirror magic",
+    "description": "A full-length interactive mirror with animations and customization. The hidden camera takes photos while the mirror prompts guests to sign, touch, and smile.",
+    "image": "/images/booths/mirror.jpg",
+    "features": [
+      "Voice guidance prompts",
+      "Gesture & movement detection",
+      "Vibrant animations",
+      "Emoji stamping",
+      "Interactive contests & social games",
+      "Draw & sign on mirror"
+    ],
+    "includes": [
+      "Professional on-site attendant",
+      "Built-in email sharing",
+      "Multiple photo/GIF/video sharing",
+      "Setup and teardown"
+    ],
+    "pricing": [
+      { "duration": "2 hours", "price": 750 },
+      { "duration": "3 hours", "price": 1000 },
+      { "duration": "4 hours", "price": 1200 }
+    ],
+    "extraHourPrice": 150,
+    "spaceRequired": "8x8 ft area",
+    "startingPrice": 750
+  },
+  {
+    "id": "mini",
+    "name": "Digital Mini Photo Booth",
+    "slug": "mini-booth",
+    "tagline": "Budget-friendly self-service fun",
+    "description": "A sleek, modern, self-service photo booth that doesn't need an attendant. Perfect for budget-conscious events that still want high-quality photo booth fun.",
+    "image": "/images/booths/mini.jpg",
+    "features": [
+      "High-quality images",
+      "Boomerangs & animated GIFs",
+      "Unlimited photos",
+      "Instant social sharing",
+      "Self-service operation",
+      "Sleek modern design"
+    ],
+    "includes": [
+      "Delivery, setup, teardown & pickup",
+      "Email, text & social media sharing",
+      "Post-event gallery"
+    ],
+    "pricing": [
+      { "duration": "2 hours", "price": 350 },
+      { "duration": "3 hours", "price": 450 },
+      { "duration": "4 hours", "price": 550 }
+    ],
+    "extraHourPrice": 100,
+    "spaceRequired": "8x8 ft area, 8ft height clearance",
+    "startingPrice": 350
+  },
+  {
+    "id": "enclosed",
+    "name": "Enclosed Vintage Photo Booth",
+    "slug": "enclosed-photo-booth",
+    "tagline": "Classic curtained nostalgia",
+    "description": "Step into our private curtained booth for a nostalgic, old-school photo experience. Classic charm meets modern performance for intimate, fun moments.",
+    "image": "/images/booths/enclosed.jpg",
+    "features": [
+      "Private curtained experience",
+      "4x6 or 2x6 photo strips",
+      "Color and B&W filters",
+      "Unlimited prints",
+      "Professional cameras & soft lighting",
+      "Premium curtains"
+    ],
+    "includes": [
+      "Professional on-site attendant",
+      "Custom welcome screen",
+      "Custom photo strip design",
+      "Custom email content",
+      "Full post-event gallery"
+    ],
+    "pricing": [
+      { "duration": "2 hours", "price": 700 },
+      { "duration": "3 hours", "price": 900 },
+      { "duration": "4 hours", "price": 1100 }
+    ],
+    "extraHourPrice": 150,
+    "spaceRequired": "10x10 ft area, 8ft height clearance",
+    "startingPrice": 700
+  },
+  {
+    "id": "portrait",
+    "name": "Portrait Studio Rental",
+    "slug": "portrait-studio",
+    "tagline": "Editorial-quality on-site portraits",
+    "description": "A premium, elegant on-site setup with a professional photographer and studio-grade lighting. Get editorial-quality portraits at your event.",
+    "image": "/images/booths/portrait.jpg",
+    "features": [
+      "Professional photographer",
+      "DSLR camera",
+      "Studio-grade lighting",
+      "Professional editing software",
+      "Sleek premium backdrop",
+      "Custom design available"
+    ],
+    "includes": [
+      "Professional on-site attendant",
+      "Instant printed photos",
+      "Classic & premium backdrops",
+      "Setup and teardown"
+    ],
+    "pricing": [
+      { "duration": "3 hours", "price": 2500 },
+      { "duration": "4 hours", "price": 3000 },
+      { "duration": "5 hours", "price": 3500 }
+    ],
+    "extraHourPrice": 300,
+    "spaceRequired": "8x8 ft minimum, 220v outlet recommended",
+    "startingPrice": 2500
+  }
+]

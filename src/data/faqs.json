@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "question": "How far in advance should I book?",
+    "answer": "We recommend booking 3-6 months in advance, especially for weekend events during peak season (spring and summer). However, we do our best to accommodate last-minute requests when available.",
+    "category": "booking"
+  },
+  {
+    "id": "2",
+    "question": "What areas do you serve?",
+    "answer": "We serve all of Southern California including Los Angeles, Orange County, San Diego, Inland Empire, and surrounding cities. Travel fees may apply for distant locations.",
+    "category": "booking"
+  },
+  {
+    "id": "3",
+    "question": "How much space do I need for a photo booth?",
+    "answer": "Space requirements vary by booth type. Our compact Glam Cam needs just 1x1 ft, while the Classic and Mini booths need 8x8 ft. The 360 booth and Enclosed booth need 10x10 ft. We recommend 8ft of height clearance for most setups.",
+    "category": "setup"
+  },
+  {
+    "id": "4",
+    "question": "How long does setup take?",
+    "answer": "Most booths are set up within 45 minutes to 1 hour. Our team arrives early before your event to ensure everything is ready. The enclosed booth requires about 1.5 hours for setup.",
+    "category": "setup"
+  },
+  {
+    "id": "5",
+    "question": "Do you provide an attendant?",
+    "answer": "Yes! A professional on-site attendant is included with every booth rental (except the self-service Digital Mini Booth). Our attendants help guests, manage props, and ensure everything runs smoothly.",
+    "category": "setup"
+  },
+  {
+    "id": "6",
+    "question": "What's included in the rental?",
+    "answer": "Every rental includes setup and teardown, a prop bundle (25-30 props), digital sharing options (text, email, social media), and a post-event online gallery. Specific inclusions vary by booth type.",
+    "category": "technical"
+  },
+  {
+    "id": "7",
+    "question": "Do I need WiFi for the photo booth?",
+    "answer": "WiFi is required for digital sharing features like text, email, and social media sharing. If your venue doesn't have WiFi, we can still capture all photos and provide them via a post-event gallery.",
+    "category": "technical"
+  },
+  {
+    "id": "8",
+    "question": "Can I customize the photo templates?",
+    "answer": "Absolutely! We offer custom template design as an add-on. Our graphic designer can create a custom template with your event theme, colors, logo, and messaging.",
+    "category": "technical"
+  },
+  {
+    "id": "9",
+    "question": "How much does a photo booth rental cost?",
+    "answer": "Our rentals range from $350 for the Digital Mini Booth to $2,500+ for the Portrait Studio. Most popular packages fall between $500-$1,200. Pricing depends on booth type, duration, event type, and location.",
+    "category": "pricing"
+  },
+  {
+    "id": "10",
+    "question": "Do you offer packages or discounts?",
+    "answer": "Yes! We offer seasonal promotions and package deals. Contact us for current specials. We also have a referral program where you can earn rewards for referring friends and family.",
+    "category": "pricing"
+  },
+  {
+    "id": "11",
+    "question": "Is a deposit required to book?",
+    "answer": "Yes, a deposit is required to secure your date. We accept deposits of 25% or 50% of the total, or full payment upfront. The remaining balance is due before your event.",
+    "category": "pricing"
+  },
+  {
+    "id": "12",
+    "question": "What is your cancellation policy?",
+    "answer": "Please contact us for details about our cancellation and refund policy. We understand plans can change and work with our clients to find solutions.",
+    "category": "pricing"
+  },
+  {
+    "id": "13",
+    "question": "Do you provide props?",
+    "answer": "Yes! Every rental comes with a fun prop bundle of 25-30 props including boas, masks, glasses, lips, mustaches, and funny signs. We also offer themed prop add-ons for specific events.",
+    "category": "setup"
+  },
+  {
+    "id": "14",
+    "question": "Can the photo booth be used outdoors?",
+    "answer": "Yes, most of our booths work outdoors. We recommend a shaded area or evening setup for best photo quality. The Portrait Studio works best indoors or in a well-shaded area.",
+    "category": "technical"
+  },
+  {
+    "id": "15",
+    "question": "How do guests receive their photos?",
+    "answer": "Guests can receive photos instantly via text, email, or AirDrop. Physical prints are also available depending on the booth type. After the event, all photos are uploaded to an online gallery within 48 hours.",
+    "category": "technical"
+  }
+]

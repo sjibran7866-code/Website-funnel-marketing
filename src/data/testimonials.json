@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "name": "Sarah M.",
+    "eventType": "Wedding",
+    "rating": 5,
+    "text": "Stay Golden made our wedding reception SO much fun! The Glam Cam photos were gorgeous and every guest was obsessed. Thomas and his team were professional, friendly, and made everything seamless.",
+    "date": "2025-10"
+  },
+  {
+    "id": "2",
+    "name": "James R.",
+    "eventType": "Corporate Event",
+    "rating": 5,
+    "text": "We hired Stay Golden for our company holiday party and it was the highlight of the night. The 360 booth videos were incredible — everyone was sharing them on social media for weeks!",
+    "date": "2025-12"
+  },
+  {
+    "id": "3",
+    "name": "Maria L.",
+    "eventType": "Birthday Party",
+    "rating": 5,
+    "text": "Best decision I made for my daughter's quinceañera! The mirror booth was interactive and so much fun. The custom templates matched our theme perfectly. Highly recommend!",
+    "date": "2025-09"
+  },
+  {
+    "id": "4",
+    "name": "David K.",
+    "eventType": "Brand Activation",
+    "rating": 5,
+    "text": "We used Stay Golden for a product launch and the branded photo experience was exactly what we needed. Professional setup, great quality, and our audience loved the instant sharing feature.",
+    "date": "2025-11"
+  },
+  {
+    "id": "5",
+    "name": "Ashley T.",
+    "eventType": "Wedding",
+    "rating": 5,
+    "text": "I can't say enough good things about Stay Golden! They showed up early, set up quickly, and kept the booth running all night. The photo strips were beautiful and the online gallery was a wonderful bonus.",
+    "date": "2026-01"
+  },
+  {
+    "id": "6",
+    "name": "Michael P.",
+    "eventType": "Birthday Party",
+    "rating": 5,
+    "text": "The Classic Photo Booth was a huge hit at my 40th birthday. Props were hilarious, photos came out great, and the attendant was fantastic with my guests. Worth every penny!",
+    "date": "2026-02"
+  }
+]
