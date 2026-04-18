@@ -37,10 +37,10 @@ export default function ExitIntentPopup() {
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
       {/* Backdrop */}
-      <div className="absolute inset-0 bg-black/50" onClick={dismiss} />
+      <div className="popup-backdrop absolute inset-0 bg-black/50" onClick={dismiss} />
 
       {/* Modal */}
-      <div className="relative bg-white rounded-2xl max-w-md w-full p-8 shadow-2xl">
+      <div className="popup-content relative bg-white rounded-2xl max-w-md w-full p-8 shadow-2xl">
         <button
           onClick={dismiss}
           className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 cursor-pointer"

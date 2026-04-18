@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function StickyMobileCTA() {
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-40 md:hidden bg-white border-t border-gray-200 shadow-[0_-4px_12px_rgba(0,0,0,0.1)]">
+    <div className="mobile-cta fixed bottom-0 left-0 right-0 z-40 md:hidden bg-white border-t border-gray-200 shadow-[0_-4px_12px_rgba(0,0,0,0.1)]">
       <div className="flex items-center">
         <a
           href="tel:6265139805"

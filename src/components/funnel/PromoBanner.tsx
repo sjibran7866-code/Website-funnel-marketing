@@ -9,7 +9,7 @@ export default function PromoBanner() {
   if (dismissed) return null;
 
   return (
-    <div className="bg-brand text-white text-center py-2.5 px-4 relative text-sm">
+    <div className="promo-banner bg-brand text-white text-center py-2.5 px-4 relative text-sm">
       <Link href="/book" className="hover:underline font-medium">
         Book in April and get a free custom template design!
       </Link>

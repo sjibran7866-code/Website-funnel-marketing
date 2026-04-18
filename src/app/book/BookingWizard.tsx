@@ -18,6 +18,7 @@ const eventTypes = [
 
 export default function BookingWizard({ booths, addOns }: BookingWizardProps) {
   const [step, setStep] = useState(0);
+  const [stepKey, setStepKey] = useState(0);
   const [selectedBooth, setSelectedBooth] = useState<string>("");
   const [selectedDuration, setSelectedDuration] = useState<number>(0);
   const [selectedAddOns, setSelectedAddOns] = useState<Set<string>>(new Set());
@@ -82,7 +83,7 @@ export default function BookingWizard({ booths, addOns }: BookingWizardProps) {
 
       {/* Step 1: Select Booth */}
       {step === 0 && (
-        <div>
+        <div key={stepKey} className="step-content">
           <h2 className="text-2xl font-bold mb-6">Choose Your Photo Booth</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             {booths.map((b) => (
@@ -128,7 +129,7 @@ export default function BookingWizard({ booths, addOns }: BookingWizardProps) {
 
       {/* Step 2: Event Details */}
       {step === 1 && (
-        <div>
+        <div key={stepKey} className="step-content">
           <h2 className="text-2xl font-bold mb-6">Event Details</h2>
           <div className="space-y-4">
             <div className="grid sm:grid-cols-2 gap-4">
@@ -222,7 +223,7 @@ export default function BookingWizard({ booths, addOns }: BookingWizardProps) {
 
       {/* Step 3: Add-Ons */}
       {step === 2 && (
-        <div>
+        <div key={stepKey} className="step-content">
           <h2 className="text-2xl font-bold mb-6">Enhance Your Experience</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             {addOns.map((addon) => (
@@ -261,7 +262,7 @@ export default function BookingWizard({ booths, addOns }: BookingWizardProps) {
 
       {/* Step 4: Review & Pay */}
       {step === 3 && booth && pricingTier && (
-        <div>
+        <div key={stepKey} className="step-content">
           <h2 className="text-2xl font-bold mb-6">Review Your Order</h2>
 
           <div className="bg-gray-50 rounded-xl p-6 space-y-4 mb-8">
@@ -311,7 +312,7 @@ export default function BookingWizard({ booths, addOns }: BookingWizardProps) {
       <div className="flex justify-between mt-10 pt-6 border-t border-gray-200">
         {step > 0 ? (
           <button
-            onClick={() => setStep(step - 1)}
+            onClick={() => { setStep(step - 1); setStepKey((k) => k + 1); }}
             className="px-6 py-3 border border-gray-300 rounded-lg font-medium hover:bg-gray-50 transition-colors cursor-pointer"
           >
             Back
@@ -321,7 +322,7 @@ export default function BookingWizard({ booths, addOns }: BookingWizardProps) {
         )}
         {step < 3 && (
           <button
-            onClick={() => setStep(step + 1)}
+            onClick={() => { setStep(step + 1); setStepKey((k) => k + 1); }}
             disabled={!canProceed()}
             className="px-8 py-3 bg-brand text-white rounded-lg font-semibold hover:bg-brand-dark transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
           >

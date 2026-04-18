@@ -31,7 +31,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="bg-brand text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-brand-dark transition-colors"
+                  className="btn-animate bg-brand text-white px-5 py-2.5 rounded-lg font-semibold hover:bg-brand-dark transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -39,7 +39,7 @@ export default function Header() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-foreground font-medium hover:text-brand transition-colors"
+                  className="nav-link text-foreground font-medium hover:text-brand transition-colors"
                 >
                   {link.label}
                 </Link>

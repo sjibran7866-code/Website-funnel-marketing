@@ -33,7 +33,7 @@ export default function Button({
   disabled = false,
   className = "",
 }: ButtonProps) {
-  const classes = `inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-300 ${variants[variant]} ${sizes[size]} ${disabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer"} ${className}`;
+  const classes = `inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-300 btn-animate ${variants[variant]} ${sizes[size]} ${disabled ? "opacity-50 cursor-not-allowed" : "cursor-pointer"} ${className}`;
 
   if (href) {
     return (

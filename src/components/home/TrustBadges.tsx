@@ -1,3 +1,5 @@
+import AnimateOnScroll from "@/components/ui/AnimateOnScroll";
+
 const badges = [
   {
     icon: (
@@ -42,14 +44,16 @@ export default function TrustBadges() {
     <section className="py-16 border-y border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {badges.map((badge) => (
-            <div key={badge.title} className="text-center">
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brand/10 text-brand mb-4">
-                {badge.icon}
+          {badges.map((badge, i) => (
+            <AnimateOnScroll key={badge.title} animation="zoom-in" delay={i * 120}>
+              <div className="text-center group cursor-default">
+                <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brand/10 text-brand mb-4 group-hover:bg-brand group-hover:text-white group-hover:scale-110 transition-all duration-300">
+                  {badge.icon}
+                </div>
+                <h3 className="font-bold text-foreground mb-1">{badge.title}</h3>
+                <p className="text-sm text-gray-600">{badge.description}</p>
               </div>
-              <h3 className="font-bold text-foreground mb-1">{badge.title}</h3>
-              <p className="text-sm text-gray-600">{badge.description}</p>
-            </div>
+            </AnimateOnScroll>
           ))}
         </div>
       </div>
